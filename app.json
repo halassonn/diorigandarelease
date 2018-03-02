@@ -1,0 +1,21 @@
+{
+    "name": "Nuts",
+    "description": "Open source releases/downloads server with auto-updater",
+    "repository": "https://github.com/halassonn/diorigandarelease",
+    "website": "https://github.com/halassonn/diorigandarelease",
+    "keywords": ["releases", "download", "github", "squirrel", "desktop"],
+    "env": {
+        "GITHUB_REPO": {
+            "description": "Repository for the application's releases"
+        },
+        "GITHUB_TOKEN": {
+            "description": "Access token for GitHub API"
+        },
+        "API_USERNAME": {
+            "description": "Username for private API access"
+        },
+        "API_PASSWORD": {
+            "description": "Password for private API access"
+        }
+    }
+}
